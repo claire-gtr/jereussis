@@ -1,15 +1,67 @@
----
-title: Le Wagon - Middleman
----
-
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="navbar-jr navbar-fixed-top">
+  <!-- Logo -->
+  <div class="navbar-logos">
+    <div class="navbar-logo">
+    <%= image_tag 'logo_jereussis.png'%>
+    </div>
   </div>
+
+  <!-- Right Navigation -->
+  <div class="navbar-jr-right hidden-xs hidden-sm">
+
+    <div class="navbar-tabs">
+      <a href="#", class="navbar-jr-item navbar-jr-link">ACCUEIL</a>
+    </div>
+    <div class="navbar-tabs">
+      <a href="#prestations", class="navbar-jr-item navbar-jr-link">PRESTATIONS</a>
+    </div>
+    <div class="navbar-tabs">
+      <a href="#tarifs", class="navbar-jr-item navbar-jr-link">TARIFS</a>
+    </div>
+    <div class="navbar-tabs">
+      <a href="#apropos", class="navbar-jr-item navbar-jr-link">À PROPOS</a>
+    </div>
+    <div class="navbar-tabs">
+      <a href="#contact", class="navbar-jr-item navbar-jr-link">CONTACT</a>
+    </div>
+
+</div>
+
+  <!-- Dropdown list appearing on mobile only -->
+  <div class="navbar-jr-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-jr-dropdown-menu">
+        <li><a href="#", "navbar-jr-item navbar-jr-link">Accueil</a></li>
+        <li><a href="#prestations", "navbar-jr-item navbar-jr-link">Prestations</a></li>
+         <li><a href="#tarifs", "navbar-jr-item navbar-jr-link">Tarifs</a></li>
+        <li><a href="#apropos", "navbar-jr-item navbar-jr-link">À propos</a></li>
+        <li><a href="#contact", "navbar-jr-item navbar-jr-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="banner-home" style="height: 100vh;">
+
+</div>
+
+<div class="banner-presentation" style="height: 100vh;">
+  <h1>Présentation + exemple transformation</h1>
+</div>
+
+<div class="banner-explication" style="height: 100vh;">
+  <h1>Comment ça marche ?</h1>
+</div>
+
+<div class="banner-models" style="height: 100vh;">
+  <h1>Exemple des modèles</h1>
+</div>
+
+<div class="banner-buttons" style="height: 100vh;">
+  <h1>Boutons achat</h1>
+</div>
+
+<div class="footer" style="height: 20vh;">
+  <h1>FOOTER</h1>
 </div>
