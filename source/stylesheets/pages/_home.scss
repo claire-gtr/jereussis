@@ -1,4 +1,41 @@
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ background-color: white;
+ padding-bottom: 70px; /* height of your footer */
+}
 .banner-home {
+  margin-top: 70px;
   background-image: image-url("jereussis.jpg");
   background-size: cover;
+  text-align: center;
+}
+
+
+h1 {
+  color: #494A4A;
+  font-size: 50px;
+  }
+h3 {
+  font-size: 16px;
+  }
+h2 {
+  color: #494A4A;
+  font-size: 24px;
+  }
+
+.main-lign {
+  border-bottom: solid 1px black;
+  opacity: 0.4;
+  margin: 40px 90px;
+}
+
+.banner-contact {
+  background-color: white;
+  a {
+    color: #a96851;
+    font-size: 12px;
+  }
 }
