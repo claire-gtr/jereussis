@@ -11,20 +11,50 @@
   background-image: image-url("jereussis.jpg");
   background-size: cover;
   text-align: center;
+  color: #eac69a;
+  font-weight: 600 !important;
 }
 
+.banner-home-text {
+  padding-top: 150px;
+}
 
-h1 {
-  color: #494A4A;
-  font-size: 50px;
-  }
-h3 {
-  font-size: 16px;
-  }
-h2 {
-  color: #494A4A;
-  font-size: 24px;
-  }
+.banner-presentation {
+  text-align: center;
+}
+
+.banner-buy {
+  background-image: image-url("buy.jpg");
+  background-size: cover;
+  display: flex;
+}
+
+.banner-buttons {
+  padding: 20px;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.card {
+  background-color: white;
+  opacity: 0.6;
+  padding: 20px;
+  color: black;
+  text-align: center;
+  height: 140px;
+  margin: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+.card-price {
+  font-size: 35px;
+  color: #a96851;
+  font-weight: 600;
+}
 
 .main-lign {
   border-bottom: solid 1px black;
