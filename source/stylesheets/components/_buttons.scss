@@ -1,3 +1,11 @@
 .banner-buttons {
   text-align: center;
 }
+
+.button {
+  font-family: $body-font !important;
+  font-weight: normal !important;
+  &:hover {
+  font-weight: bold !important;
+  }
+}

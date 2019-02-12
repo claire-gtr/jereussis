@@ -23,7 +23,7 @@
     padding: 0 10px;
     color: black;
     &:hover {
-      color: #a96851;
+      color: $wood;
       background-color: white;
       text-decoration: none;
     }
@@ -37,7 +37,7 @@
     cursor: pointer;
     font-size: 10px;
     &:hover {
-      color: #a96851;
+      color: $wood;
       opacity: 1;
       text-decoration: none;
     }
