@@ -23,6 +23,27 @@
   text-align: center;
 }
 
+.row-explain {
+  margin: 5px;
+}
+.text-explain {
+  padding: 20px;
+  h3 {
+    color: $medium-gray;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+  p {
+    padding: 20px;
+  }
+}
+.icon-explain {
+  padding: 30px;
+  color: $wood;
+  font-size: 80px;
+  vertical-align: middle;
+}
+
 .banner-buy {
   background-image: image-url("buy.jpg");
   background-size: cover;
@@ -59,7 +80,7 @@
 .main-lign {
   border-bottom: solid 1px black;
   opacity: 0.4;
-  margin: 40px 90px;
+  margin: 40px 150px;
 }
 
 .banner-contact {
