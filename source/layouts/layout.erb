@@ -8,6 +8,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Je Réussis - CVs et Lettres de motivation</title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
@@ -16,4 +17,8 @@
   <body>
     <%= yield %>
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
 </html>
