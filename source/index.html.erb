@@ -40,9 +40,10 @@
   </div>
 
   <div class="banner-home" style="height: 100vh;">
-    <div class="banner-home-text">
-      <h1 data-aos="fade-right"><em>Remplis, confies, réussis</em></h1>
-      <h2 data-aos="fade-left"><em>Ensemble, nous créons le CV ou la lettre de motivation qui te correspond</em></h2>
+    <div class="card-banner">
+      <div class="card-banner-home-text">
+        <h2 data-aos="fade-left"><em>Ensemble, nous créons le CV ou la lettre de motivation qui te correspond</em></h2>
+      </div>
     </div>
   </div>
 
@@ -81,7 +82,7 @@
         </div>
         <div class="col-xs-12 col-sm-pull-6 col-sm-6 text-center text-explain" data-aos="fade-right">
           <h3>PROCÈDE AU PAIEMENT...</h3>
-          <p>Simple et sécurisé, via Stripe (un des leader du paiement sur internet)</p>
+          <p>Simple et sécurisé, via Stripe (un des leaders du paiement sur internet)</p>
         </div>
       </div>
       <div class="main-lign">
@@ -100,6 +101,76 @@
 
   <div class="banner-models" style="max-height: 100%;">
     <h2>Exemple des modèles</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card-preview">
+            <div class="card-img-top text-center">
+              <%= image_tag "classique1.png", alt: "CV classique 1", title: "CV classique 1", class: "img-preview"%>
+            </div>
+            <div class="card-body text-center">
+              <div class="card-title">
+                CV Classique 1
+              </div>
+              <div class="card-button">
+                <button type="button" class="button-preview" data-toggle="modal" data-target=".bd-example-modal-sm1">Voir le CV</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade bd-example-modal-sm1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+              <%= image_tag "classique1.png", alt: "CV classique 1", title: "CV classique 1", class: "card-img-top"%>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card-preview">
+            <div class="card-img-top text-center">
+              <%= image_tag "classique2.png", alt: "CV classique 2", title: "CV classique 2", class: "img-preview"%>
+            </div>
+            <div class="card-body text-center">
+              <div class="card-title">
+                CV Classique 2
+              </div>
+              <div class="card-button">
+                <button type="button" class="button-preview" data-toggle="modal" data-target=".bd-example-modal-sm2">Voir le CV</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade bd-example-modal-sm2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+              <%= image_tag "classique2.png", alt: "CV classique 2", title: "CV classique 2", class: "card-img-top"%>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card-preview">
+            <div class="card-img-top text-center">
+              <%= image_tag "creatif.png", alt: "CV créatif", title: "CV créatif", class: "img-preview"%>
+            </div>
+            <div class="card-body text-center">
+              <div class="card-title">
+                CV Créatif
+              </div>
+              <div class="card-button">
+                <button type="button" class="button-preview" data-toggle="modal" data-target=".bd-example-modal-sm3">Voir le CV</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade bd-example-modal-sm3" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+              <%= image_tag "creatif.png", alt: "CV créatif", title: "CV créatif", class: "card-img-top"%>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div id="prices"></div>

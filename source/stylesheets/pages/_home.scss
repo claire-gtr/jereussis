@@ -8,15 +8,23 @@
 }
 .banner-home {
   margin-top: 70px;
-  background-image: image-url("bannerjereussis.jpg");
+  background-image: image-url("testbanner.jpg");
   background-size: cover;
   text-align: center;
   color: $light-wood;
   font-weight: 600 !important;
 }
+.card-banner-home-text {
+  padding-top: 100px;
+  opacity: 0.8;
+}
 
-.banner-home-text {
-  padding-top: 150px;
+.card-banner-home-text h2 {
+  color: $wood;
+  text-align: center;
+  padding: 25px 20px;
+  background-color: white;
+
 }
 
 .banner-presentation {
@@ -42,6 +50,28 @@
   color: $wood;
   font-size: 80px;
   vertical-align: middle;
+}
+.banner-models {
+  margin-bottom: 50px;
+}
+.img-preview {
+  height: 150px;
+  padding: 20px;
+}
+.button-preview {
+  padding: 8px 15px 7px 15px;
+  border-radius: 2px;
+  display: inline-block;
+  color: black;
+  border: 1px solid black;
+  opacity: 0.6;
+  background: transparent;
+  font-weight: 400;
+}
+.button-preview:hover {
+  text-decoration: none;
+  opacity: 1;
+  font-weight: 600;
 }
 
 .banner-buy {
