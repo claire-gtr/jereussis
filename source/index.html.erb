@@ -3,7 +3,7 @@
     <!-- Logo -->
     <div class="navbar-logos">
       <div class="navbar-logo">
-      <%= image_tag 'logo_jereussis.png'%>
+      <%= image_tag 'logo_jereussis.png', alt: "Logo Je Réussis", title: "Logo Je Réussis"%>
       </div>
     </div>
 
@@ -42,7 +42,12 @@
   <div class="banner-home" style="height: 100vh;">
     <div class="card-banner">
       <div class="card-banner-home-text">
-        <h2 data-aos="fade-left"><em>Ensemble, nous créons le CV ou la lettre de motivation qui te correspond</em></h2>
+        <h2 data-aos="fade-left">
+          <%= image_tag 'logo_jereussiscopy.png', alt: "Logo Je Réussis", title: "Logo Je Réussis", class: "banner-logo"%>
+          <br><br>
+          <em>Ensemble, nous créons le CV et la lettre de motivation qui te correspond</em>
+        </h2>
+
       </div>
     </div>
   </div>
@@ -100,7 +105,7 @@
   </div>
 
   <div class="banner-models" style="max-height: 100%;">
-    <h2>Exemple des modèles</h2>
+    <h2>EXEMPLES DE MODÈLES</h2>
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-4">
@@ -120,7 +125,7 @@
           <div class="modal fade bd-example-modal-sm1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm">
               <div class="modal-content">
-              <%= image_tag "classique1.png", alt: "CV classique 1", title: "CV classique 1", class: "card-img-top"%>
+                <%= image_tag "classique1.png", alt: "CV classique 1", title: "CV classique 1"%>
               </div>
             </div>
           </div>
@@ -142,7 +147,7 @@
           <div class="modal fade bd-example-modal-sm2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm">
               <div class="modal-content">
-              <%= image_tag "classique2.png", alt: "CV classique 2", title: "CV classique 2", class: "card-img-top"%>
+              <%= image_tag "classique2.png", alt: "CV classique 2", title: "CV classique 2"%>
               </div>
             </div>
           </div>
@@ -164,7 +169,7 @@
           <div class="modal fade bd-example-modal-sm3" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm">
               <div class="modal-content">
-              <%= image_tag "creatif.png", alt: "CV créatif", title: "CV créatif", class: "card-img-top"%>
+              <%= image_tag "creatif.png", alt: "CV créatif", title: "CV créatif"%>
               </div>
             </div>
           </div>
@@ -175,6 +180,7 @@
 
   <div id="prices"></div>
 
+  <h2>POUR COMMANDER :</h2>
   <div class="banner-buy" style="max-height: 100%;">
     <div class="container">
       <div class="row">

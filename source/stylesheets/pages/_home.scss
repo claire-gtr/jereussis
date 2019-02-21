@@ -8,7 +8,7 @@
 }
 .banner-home {
   margin-top: 70px;
-  background-image: image-url("testbanner.jpg");
+  background-image: image-url("bannerjereussis.jpg");
   background-size: cover;
   text-align: center;
   color: $light-wood;
@@ -20,11 +20,19 @@
 }
 
 .card-banner-home-text h2 {
-  color: $wood;
+  color: black;
+  letter-spacing: 3px !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
   text-align: center;
-  padding: 25px 20px;
+  padding: 15px 5px;
   background-color: white;
-
+  min-width: 200px;
+  margin-right: 50px !important;
+  margin-left: 50px !important;
+}
+.card-banner-home-text img {
+  height: 40px;
 }
 
 .banner-presentation {
