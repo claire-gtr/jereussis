@@ -39,10 +39,11 @@
 .navbar-jr-link {
   color: #616668;
   font-size: 14px;
+  text-decoration: none !important;
 }
 .navbar-jr-link:hover {
   color: $wood;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* Dropdown menu */
