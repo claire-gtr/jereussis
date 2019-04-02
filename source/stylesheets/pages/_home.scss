@@ -53,9 +53,24 @@
     padding: 20px;
   }
 }
+
+.text-explain-legals {
+  p {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10px !important;
+    margin-bottom: 0px !important;
+  }
+}
 .icon-explain {
+  i {
+    color: $wood !important;
+    text-decoration: none !important;
+  }
+  i:hover {
+    color: $gray !important;
+  }
   padding: 30px;
-  color: $wood;
   font-size: 80px;
   vertical-align: middle;
 }
