@@ -30,9 +30,32 @@
   min-width: 200px;
   margin-right: 50px !important;
   margin-left: 50px !important;
+  border-radius: 3px;
 }
 .card-banner-home-text img {
   height: 40px;
+}
+
+.button-banner-home {
+  font-size: 18px !important;
+  padding: 8px 15px 7px 15px;
+  border-radius: 3px;
+  display: inline-block;
+  color: black;
+  opacity: 0.8;
+  background: white;
+  font-weight: 400;
+  letter-spacing: 3px !important;
+}
+
+.button-banner-home a {
+  text-decoration: none !important;
+}
+
+.button-banner-home:hover {
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  color: black;
 }
 
 .banner-presentation {
@@ -43,14 +66,14 @@
   margin: 5px;
 }
 .text-explain {
-  padding: 20px;
+  padding: 10px;
   h3 {
     color: $medium-gray;
     font-weight: bold;
     letter-spacing: 5px;
   }
   p {
-    padding: 20px;
+    padding: 10px;
   }
 }
 
@@ -70,7 +93,7 @@
   i:hover {
     color: $gray !important;
   }
-  padding: 30px;
+  padding: 10px;
   font-size: 80px;
   vertical-align: middle;
 }
@@ -141,7 +164,7 @@
 .main-lign {
   border-bottom: solid 1px black;
   opacity: 0.4;
-  margin: 40px 150px;
+  margin: 25px 175px;
 }
 
 .banner-contact {
